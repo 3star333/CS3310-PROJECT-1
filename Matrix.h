@@ -18,10 +18,20 @@ class Matrix{
     int getSize() const {return n;}
     void printMatrix() const;
     void populateMatrix(const string& filename);
+    Matrix naiveMult(const Matrix& matrixB) const;
+    Matrix divConqMult(const Matrix& matrixB) const;
+    Matrix strassenMult(const Matrix& matrixB) const;
 
-//populate matrix using randomly generated data, also saves data to file 
 
-//populate matrix using data from file
+
+
+
+
+
+
+
+
+    //void userInMatrix(cin)
 
 
 };
